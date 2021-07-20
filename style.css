@@ -1,0 +1,237 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    background-color: white;
+}
+.fa-linkedin{
+    color: #0a66c2;
+    font-size: 40px;
+}
+.btn-search{
+    background-color: transparent;
+    border: none;
+    margin-left: -45px;
+    color: grey;
+}
+
+.search{
+    line-height: 1.75;
+    height: 34px;
+    font-weight: 400px;
+    font-size: 14px;
+    background-color: #eef3f8;
+    border-radius: 2px;
+    width: 250px !important;
+}
+.nav-link{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    align-items: center;
+    margin-right: 5px;
+}
+.nav-link i{
+    font-size: 22px;
+}
+.profile{
+    border-right: 1px solid rgba(128, 128, 128, 0.432);
+    margin-right: 6px;
+    height: 45px;
+    border-spacing: 3px;
+}
+.profile-photo{
+    height: 25px;
+}
+.card{
+    border-radius: 15px;
+}
+.card-bg{
+    width: 252px;
+    height: 50px;
+    margin-left: 15px;
+    border-radius: 15px 15px 0 0;
+}
+.side-pp{
+    display: flex;
+    width: 75px;
+    margin-top: -25px !important;
+    padding: 0;
+    border: 2px solid white;
+}
+.baglanti{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 12px;
+    text-decoration: none;
+    align-items: center;
+}
+.baglanti:hover{
+    background-color: rgba(128, 128, 128, 0.212);
+    text-decoration: none;
+}
+.mini-box{
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    display: inline-block;
+    background: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+
+}
+.second-side-card .card-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.second-side-card ul{
+    font-size: 12px;
+    list-style: none;
+    padding: 0;
+}
+.second-side-card li{
+    margin: 5px 0;
+}
+.fa-plus{
+    line-height: 75px;
+    color: black;
+    align-items: center;
+    margin: auto 15px;
+    border-radius: 50%;
+}
+.fa-plus:hover{
+    background-color: rgba(0, 0, 0, 0.096);
+}
+.kesfet:hover{
+    background-color: rgba(128, 128, 128, 0.212);
+    text-decoration: none;
+}
+.btn-start-post{
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.555);
+    font-size: 13px;
+    border-radius: 55px;
+    width: 80%;
+    height: 45px;
+    text-align: center;
+    text-align: left;
+    padding-top: 4px;
+    padding-left: 15px;
+    transition: .5s;
+}
+.btn-start-post:hover{
+    background-color: rgba(0, 0, 0, 0.096);
+}
+.medias{
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.medias:last-child{
+    margin-right: 35px;
+}
+.medias li {
+    padding: 15px;
+}
+.medias i{
+    margin-right: 10px;
+}
+.medias li:hover{
+    background-color: rgba(0, 0, 0, 0.096);
+}
+.medias a:hover{
+    text-decoration: none;
+}
+.card-headerr{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card-headerr i{
+    color: black;
+    margin: 15px;
+}
+.card-comment{
+    font-size: 16px;
+    margin-left: 15px;
+}
+.profile-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 12px;
+}
+.shared-image{
+    width: 100%;
+}
+.interactions{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.interactions li{
+    padding: 10px;
+}
+.interactions li:hover{
+    background-color: rgba(0, 0, 0, 0.096);
+}
+.interactions li a{
+    color: rgba(0, 0, 0, 0.473);
+}
+.interactions li a:hover{
+    text-decoration: none;
+}
+.fixedButton{
+    position: fixed;
+    bottom: -2px;
+    right: 0px; 
+    font-size: 14px;
+}
+.fixedButton i{
+    font-size: 18px;
+}
+.roundedFixedBtn{
+  height: 40px;
+  width: 250px;  
+  font-weight: bold;
+  border: 1px solid rgba(0, 0, 0, 0.527);
+  border-radius: 5px;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.493);
+  text-align: center;
+  cursor: pointer;
+}
+.fixedButton:hover{
+    text-decoration: none;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+}
+.right-side-card ul{
+    padding: 0;
+}
+.right-side-card li{
+    font-size: 13px;
+    padding-left: 10px;
+}
+.right-side-card li:hover{
+    background-color: rgba(0, 0, 0, 0.096);
+    cursor: pointer;
+}
+.right-side-card li a{
+    color: black;
+}
+.right-side-card li a:last-child{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-right:15px;
+}
+.right-side-card li a:last-child:hover{
+    text-decoration: none;
+}
